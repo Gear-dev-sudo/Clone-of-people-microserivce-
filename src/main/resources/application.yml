@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: 12345678
+    url: jdbc:mysql://clients.ck2yir89pw13.us-east-1.rds.amazonaws.com:3306/clients
+    username: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+server:
+  port: 8080
