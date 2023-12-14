@@ -23,7 +23,7 @@ public class login {
     @PostMapping()
     public result getByUsernameAndPassword(@RequestBody people people) {
         // TODO: Replace these variables before running the sample.
-        String projectId = "pubsubtest846";
+        String projectId = "pubsubtest846";//projectid
         String topicId = "my-topic";
         result result = new result();
         System.out.println(people);
